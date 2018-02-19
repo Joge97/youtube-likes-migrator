@@ -1,0 +1,37 @@
+{
+    "name": "youtube-likes-migrator",
+    "version": "0.0.0",
+    "description": "Migrates Youtube Likes from one account to another",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "rimraf lib && tsc -w",
+        "build": "rimraf lib && tsc",
+        "prepublish": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Joge97/youtube-likes-migrator.git"
+    },
+    "keywords": [
+        "youtube",
+        "likes",
+        "migrator",
+        "migration"
+    ],
+    "author": "Joge <joge@application-studios.com> (https://application-studios.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Joge97/youtube-likes-migrator/issues"
+    },
+    "homepage": "https://github.com/Joge97/youtube-likes-migrator#readme",
+    "devDependencies": {
+        "rimraf": "^2.6.2",
+        "tslint": "^5.9.1",
+        "typescript": "^2.7.2"
+    },
+    "dependencies": {
+        "@types/node": "^9.4.6"
+    }
+}
