@@ -4,6 +4,9 @@
     "description": "Migrates Youtube Likes from one account to another",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
+    "bin": {
+        "youtube-likes-migrator": "./lib/cli.js"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "serve": "rimraf lib && tsc -w",
@@ -34,6 +37,7 @@
     "dependencies": {
         "@types/node": "^9.4.6",
         "@types/opn": "^5.1.0",
+        "commander": "^2.14.1",
         "google-auth-library": "^1.2.1",
         "googleapis": "^26.0.1",
         "opn": "^5.2.0"

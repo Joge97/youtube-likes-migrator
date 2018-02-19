@@ -98,7 +98,7 @@ color-name@^1.1.1:
   version "1.1.3"
   resolved "http://nexus.lan/repository/npm-public/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
 
-commander@^2.12.1:
+commander@^2.12.1, commander@^2.14.1:
   version "2.14.1"
   resolved "http://nexus.lan/repository/npm-public/commander/-/commander-2.14.1.tgz#2235123e37af8ca3c65df45b026dbd357b01b9aa"
 
