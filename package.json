@@ -31,15 +31,15 @@
     "homepage": "https://github.com/Joge97/youtube-likes-migrator#readme",
     "devDependencies": {
         "rimraf": "^2.6.2",
-        "tslint": "^5.9.1",
-        "typescript": "^2.7.2"
+        "tslint": "^5.11.0",
+        "typescript": "^3.0.1"
     },
     "dependencies": {
-        "@types/node": "^9.4.6",
+        "@types/node": "^10.5.7",
         "@types/opn": "^5.1.0",
-        "commander": "^2.14.1",
-        "google-auth-library": "^1.2.1",
-        "googleapis": "^26.0.1",
-        "opn": "^5.2.0"
+        "commander": "^2.17.1",
+        "google-auth-library": "^1.6.1",
+        "googleapis": "^32.0.0",
+        "opn": "^5.3.0"
     }
 }
