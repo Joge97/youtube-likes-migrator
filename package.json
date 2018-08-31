@@ -30,9 +30,9 @@
     },
     "homepage": "https://github.com/Joge97/youtube-likes-migrator#readme",
     "devDependencies": {
-        "rimraf": "^2.6.2",
-        "tslint": "^5.11.0",
-        "typescript": "^3.0.1"
+        "rimraf": "2.6.2",
+        "tslint": "5.11.0",
+        "typescript": "3.0.1"
     },
     "dependencies": {
         "@types/node": "^10.5.7",
